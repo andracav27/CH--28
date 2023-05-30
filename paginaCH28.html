@@ -1,0 +1,111 @@
+<!DOCTYPE html>  <!--representa el tipo de documento y ayuda a los navegadores a mostrar correctamente las paginas web -->
+
+<html lang="en">  <!-- se le conoce como elemento raiz -->
+<head> <!--actua como contenedor de lo que se quiera incluir en la pagina html que no es visible por los visitantes de la pagina, incluye palabras claves, metadatos, vinculos, etc.-->
+    <meta charset="UTF-8"> <!-- especifica los caracteres que seran utilizados en la pgina web-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- x-ua- se utiliza par el explorador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina web Ch28</title> <!--hace refernccia al nombre que llevara la pagina web
+    -->
+</head>
+<body>
+    <!--Nombre de la etiqueta -->
+    <p>Hola soy un parrafo pequeñito</p>
+    <!--etiquetas de cabecera (h1 al h6)-->
+    <h1> soy una etiqueta h1</h1>
+    <h2> soy una etiqueta h2</h2>
+    <h3> soy una etiqueta h3</h3>
+    <h4> soy una etiqueta h4</h4>
+    <h5> soy una etiqueta h5</h5>
+    <h6> soy una etiqueta h6</h6>
+
+    <hr>
+    <h3> Atributos html </h3>
+    <p>Hola soy Andrea Andraca, soy estudiante para <b>desarrollador Java full stack  </b>, estoy aprendiendo a usar los <i>elementos</i> y <mark>  etiquetas </mark> de html. </p>      <p>  <del>Me gusta escuchar musica </del>y <em>ver peliculas de Disney </em> y estar en las <u>  redes sociales </u> </p>
+    <p> 
+        Estudie <strong> odontologia </strong>, en donde vi muchos casos de px comprometidos con su salud bucaal, y me se algunas formulas de la tabla periodica como la del agua H <sub> 2 </sub>O y matematicas como el area de un circulo pi * r <sup>2</sup>
+
+    </p>
+
+
+    </p>
+    <br>
+
+    <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">
+        <p>
+            Esta etiqueta nos permite dar un texto dentro de nuestro documento html, es decir, proporciona un nmecanbismo para insertar signos de puntuacion de citas antes y despues de una cita delimitada 
+            
+        </p>
+        <hr>
+    </blockquote>
+    <!--hr= nos sirve para dar una separacion entre nuestros parrafos, se muestra una lia horizontal
+    -->
+    <!-- br=-->
+    <hr> 
+    <p>
+        Como soy reina y fui mendiga, ahora
+        vivo en puro temblor de que me dejes,
+       y te pregunto, pálida, a cada hora:  
+        “¿Estás conmigo aún? ¡Ay, no te alejes</p>
+        <hr>
+        
+
+        
+        <p style="color:coral:">  Soy andrea lizeth andraca, soy <b style="color:gold;"> estudiante de desarrolador Java Full Stack </b> , <p align="left">  me gusta estar en mi curso y poner mucha atencion a mis actividades. </p>
+             En mis tiempos libres veo seriers y peliculas de Disney.
+             <p align="right"> ademas de escuchar mis canciones favcoritas. 
+       <p="center">
+
+                Me gusta estar con mi gatita jugando y durmiendo.
+
+
+             </p>
+
+        <hr>
+        <h3> Etiquetas de enlace</h3>
+    <!-- Los enlaces nos permiten la navegacion por medio de hipervinculos (links) que realizan una conexion y referencia otros archivos o paginas web dentro de la misma aplicacion o externa a la misma 
+    para los enlaces se utilian la etiqueta "anchor (anclaa) y se presenta con una <a> </a>
+    los principales atributos de anchor son:
+    href: nos permite definir la ubicacion de la pagina a la que nos vamos a enlzar. este atributo puede ser una url (externa) o un archivo dentro de nuestro proyecto.
+    _blank: abre el enlace a una nueva ventana 
+    _self: abre el enlace en la misma ventana (valor por default)
+    
+    -Rutas absolutas: son aquellas que definen la ubicacion completa de un archivo o de una pagina web  por ejemplo: http://www.google.com.mx
+    -Rutas relativas: Son aquellas que se definen a partir de la posicion en la estructura local de la pagina que lo está refiriendo , es decir solo indica el orden de directorios
+    "-->
+
+<a href="https://www.google.com/"> Da click aqui parta visitar la pagina oficial de Google</a>
+<br>
+<br>
+
+<a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" 
+target="_blank">Mira este video </a>
+<br>
+<br>
+<br>
+<a href="mailto: andraca813@gmail.com"> Presiona aqui para enviar un correo </a>
+<br>
+<br>
+
+<a href="assets/images/descarga.jfif"  download></a>"descarga.jfif"</a>
+
+
+<br>
+<h3>Etiqueta de imagen </h3>
+<!--<ing> etiqueta que  sirve para almacenar imagenes
+    atributos de imagen:
+-src: define la ubicacion del archivo local o remota
+alt: deefine un texto alterno a la imagen
+widith: define el ancho de la imagen
+height: define el alto de la imagen 
+-->
+            
+
+<img src="/assets/images/foto Luna.jpeg" width="300px" alt="foto luna">
+<img src="https://www.bing.com/images/search?view=detailV2&ccid=arLYG0oh&id=2A336F87D596511D4F848FF4A4CD989A2048A7B1&thid=OIP.arLYG0ohIs_Ke7Oryrbq2wHaE8&mediaurl=https%3a%2f%2fmiguelmalo.com%2fwp-content%2fuploads%2f2018%2f09%2ffotografo_de_alimentos-19.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.6ab2d81b4a2122cfca7bb3abcab6eadb%3frik%3dsadIIJqYzaT0jw%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1800&q=tamales+mexicanos&simid=608041565719707943&FORM=IRPRST&ck=5829875A799BB0C36BA491EC3B649E15&selectedIndex=0&ajaxhist=0&ajaxserp=0"
+ width="400rem" alt="tamales mexicanos">
+<img src="assets/images/WhatsApp Image 2023-05-23 at 9.54.36 AM.jpg" width="300px" alt="foto luna">
+
+
+</body>
+</html>
